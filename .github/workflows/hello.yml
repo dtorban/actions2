@@ -10,5 +10,6 @@ jobs:
       - name: Hello World
         run: |
           echo hello world!
-      - run: echo "This job's status is ${{ job.status }}."
+          ls
+      - run: echo "This job's status is ${{ job.status }}!"
 
